@@ -8,6 +8,9 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@scena/guides": "^0.8.0",
+    "@types/vue": "^2.0.0",
+    "moveable": "^0.17.8",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
     "vue-property-decorator": "^8.4.2"

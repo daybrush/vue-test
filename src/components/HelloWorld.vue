@@ -88,6 +88,9 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
+import Moveable from "moveable";
+import Guides from "@scena/guides";
+
 
 @Component
 export default class HelloWorld extends Vue {
