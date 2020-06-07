@@ -8,6 +8,11 @@
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import HelloWorld from "@/components/HelloWorld.vue";
+import { hasClass } from '@daybrush/utils'
+import { createPopper } from '@popperjs/core'
+import { mapGetters, mapState } from 'vuex'
+import Selecto from 'selecto'
+import DesignMoveableHandler from '@/designMoveableHandler'
 
 @Component({
   components: {
